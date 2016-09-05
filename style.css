@@ -267,6 +267,7 @@ span {
 
 		.latest ul {
 			float: right;
+			margin: 0;
 		}
 
 			.latest li {
