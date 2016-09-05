@@ -184,6 +184,7 @@ span {
 				width: 23%;
 				margin: 2% 2% 2% 0;
 				vertical-align: top;
+				position: relative;
 			}
 			.next > div:last-child {
 				margin-right: 0;
@@ -194,7 +195,9 @@ span {
 				font-weight: 700;
 				line-height: 20px;
 				text-transform: uppercase;
-				margin-bottom: 1%;
+				margin-top: 12%;
+				margin-bottom: 12%;
+   				margin-left: 25%;
 			}
 
 			.next h6:before {
@@ -205,9 +208,9 @@ span {
 				height: 40px;
 				border-radius: 50%;
 				background-position: center;
-				margin-right: 5%;
-				vertical-align: top;
-				margin-bottom: 5%;
+				position: absolute;
+				top: 17px;
+    			left: 0px;
 			}
 
 			h6.pencil:before {
@@ -242,6 +245,7 @@ span {
 
 		.next a {
 			color: #2aacc8;
+			text-decoration: none;
 		}
 
 		.next a:before {
@@ -457,15 +461,18 @@ hr {
 			text-transform: uppercase;
 		}
 
-footer {
-	text-align: justify;
+footer.Bwrappers {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0px;
+    padding-right: 0px;
 }
 
 	footer > div {
-		display: inline-block;
 		width: 14%;
 		vertical-align: top;
 		padding: 30px 0;
+		margin-right: 1%;
 	}
 
 		footer > div:first-child {
@@ -479,6 +486,7 @@ footer {
 		footer > div:last-child {
 				width: 22%;
 				text-align: center;
+				margin-right: 0;
 			}
 
 	footer > div > h6 {
@@ -503,6 +511,15 @@ footer {
 		margin-top: 25px;
 	}
 
+	footer > div > ul{
+		list-style: none;
+		padding: 0;
+	}
+
+	footer > div > ul > li{
+		margin-bottom: 5%;
+	}
+
 	footer > div > ul > li > a {
 		line-height: 26px;
 		text-decoration: none;
@@ -518,6 +535,8 @@ footer {
 
 .finish {
 	margin-bottom: 30px;
+	padding-left: 0;
+	padding-bottom: 5%;
 }
 
 	.finish p {
@@ -528,6 +547,8 @@ footer {
 		line-height: 20px;
 		text-align: left;
 		float: left;
+		margin: 0;
+		vertical-align: top;
 	}
 
 	.finish a {
