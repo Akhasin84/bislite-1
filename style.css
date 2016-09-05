@@ -128,19 +128,21 @@ body {
 		} 
 
 	.logotype {
+		font-family: 'Lato', sans-serif;
 		margin-top: 40px;
 		font-size: 50px;
 		line-height: 20px;
 		font-family: Lato;
 		font-weight: 900;
 		color: black;
+
 	}
 
-span {
-	color: #2aacc8;
-	font-weight: 400;
-	vertical-align: top;
-}
+	.logotype > span {
+			color: #2aacc8;
+			font-weight: 400;
+			vertical-align: top;
+		}
 
 	.foil {
 		background-color: #81e4ed;
