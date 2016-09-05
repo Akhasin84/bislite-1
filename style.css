@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 body {
 	font-family: arial;
 	margin: 0;
@@ -7,6 +11,8 @@ body {
 		max-width: 1000px;
 		margin: 0 auto;
 		position: relative;
+		padding: 0 2%;
+		/*border: 1px dashed green;*/
 	}
 
 		.Bwrappers:after {
